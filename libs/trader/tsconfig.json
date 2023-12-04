@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "types": ["vite/client"]
+    // "baseUrl": ".",
+    // "paths": {
+    //   "_common/*": ["src/lib/_common/*"],
+    //   "App/*": ["src/lib/App/*"],
+    //   "Assets/*": ["src/lib/Assets/*"],
+    //   "Constants/*": ["src/lib/Constants/*"],
+    //   "Fonts/*": ["src/lib/public/fonts/*"],
+    //   "Images": ["src/lib/public/images"],
+    //   "Modules/*": ["src/lib/Modules/*"],
+    //   "Sass/*": ["src/lib/sass/*"],
+    //   "Services/*": ["src/lib/Services/*"],
+    //   "Stores/*": ["src/lib/Stores/*"],
+    //   "Translations/*": ["src/lib/public/translations/*"],
+    //   "Types": ["src/lib/Types"],
+    //   "Utils/*": ["src/lib/Utils/*"],
+    //   "@deriv/account": ["../account/src/index.ts"],
+    //   "@deriv/api": ["../api/src/index.ts"],
+    //   "@deriv/appstore": ["../appstore/src/index.ts"],
+    //   "@deriv/bot-skeleton": ["../bot-skeleton/src/index.ts"],
+    //   "@deriv/bot-web-ui": ["../bot-web-ui/src/index.ts"],
+    //   "@deriv/cashier": ["../cashier/src/index.ts"],
+    //   "@deriv/cfd": ["../cfd/src/index.ts"],
+    //   "@deriv/components": ["../components/src/index.ts"],
+    //   "@deriv/hooks": ["../hooks/src/index.ts"],
+    //   "@deriv/indicators": ["../indicators/src/index.ts"],
+    //   "@deriv/p2p": ["../p2p/src/index.ts"],
+    //   "@deriv/reports": ["../reports/src/index.ts"],
+    //   "@deriv/shared": ["../shared/src/index.ts"],
+    //   "@deriv/stores": ["../stores/src/index.ts"],
+    //   "@deriv/trader": ["../trader/src/index.ts"],
+    //   "@deriv/translations": ["../translations/src/index.ts"],
+    //   "@deriv/utils": ["../utils/src/index.ts"],
+    //   "@deriv/wallets": ["../wallets/src/index.ts"]
+    // }
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "extends": "../../tsconfig.base.json"
+}
